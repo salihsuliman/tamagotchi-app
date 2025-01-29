@@ -1,0 +1,148 @@
+export type AnimalType = {
+  id: number;
+  animal: string;
+  name: string;
+};
+
+export const animalOptions = [
+  {
+    Animal: "Poodle",
+    Image: "src/images/poodle.svg",
+    SleepRate: 3,
+    HungerRate: 4,
+    HappinessRate: 2,
+  },
+  {
+    Animal: "Dog",
+    Image: "src/images/Dog.png",
+    SleepRate: 2,
+    HungerRate: 3,
+    HappinessRate: 1,
+  },
+  {
+    Animal: "Cat",
+    Image: "src/images/Cat.png",
+    SleepRate: 4,
+    HungerRate: 2,
+    HappinessRate: 3,
+  },
+  {
+    Animal: "Bird",
+    Image: "src/images/Bird.png",
+    SleepRate: 1,
+    HungerRate: 2,
+    HappinessRate: 1,
+  },
+  {
+    Animal: "Fish",
+    Image: "src/images/Fish.png",
+    SleepRate: 2,
+    HungerRate: 1,
+    HappinessRate: 2,
+  },
+  {
+    Animal: "Rabbit",
+    Image: "src/images/Rabbit.png",
+    SleepRate: 3,
+    HungerRate: 3,
+    HappinessRate: 2,
+  },
+  {
+    Animal: "Hamster",
+    Image: "src/images/Hamster.png",
+    SleepRate: 2,
+    HungerRate: 2,
+    HappinessRate: 3,
+  },
+  {
+    Animal: "Turtle",
+    Image: "src/images/Turtle.png",
+    SleepRate: 1,
+    HungerRate: 1,
+    HappinessRate: 1,
+  },
+  {
+    Animal: "Snake",
+    Image: "src/images/Snake.png",
+    SleepRate: 2,
+    HungerRate: 2,
+    HappinessRate: 2,
+  },
+  {
+    Animal: "Lizard",
+    Image: "src/images/Lizard.png",
+    SleepRate: 1,
+    HungerRate: 1,
+    HappinessRate: 1,
+  },
+  {
+    Animal: "Horse",
+    Image: "src/images/Horse.png",
+    SleepRate: 4,
+    HungerRate: 4,
+    HappinessRate: 3,
+  },
+  {
+    Animal: "Frog",
+    Image: "src/images/Frog.png",
+    SleepRate: 2,
+    HungerRate: 2,
+    HappinessRate: 2,
+  },
+  {
+    Animal: "Pig",
+    Image: "src/images/Pig.png",
+    SleepRate: 3,
+    HungerRate: 3,
+    HappinessRate: 3,
+  },
+  {
+    Animal: "Goat",
+    Image: "src/images/Goat.png",
+    SleepRate: 2,
+    HungerRate: 3,
+    HappinessRate: 2,
+  },
+  {
+    Animal: "Sheep",
+    Image: "src/images/Sheep.png",
+    SleepRate: 3,
+    HungerRate: 3,
+    HappinessRate: 3,
+  },
+  {
+    Animal: "Cow",
+    Image: "src/images/Cow.png",
+    SleepRate: 4,
+    HungerRate: 4,
+    HappinessRate: 3,
+  },
+  {
+    Animal: "Chicken",
+    Image: "src/images/Chicken.png",
+    SleepRate: 2,
+    HungerRate: 2,
+    HappinessRate: 2,
+  },
+  {
+    Animal: "Duck",
+    Image: "src/images/Duck.png",
+    SleepRate: 2,
+    HungerRate: 2,
+    HappinessRate: 2,
+  },
+  {
+    Animal: "Goose",
+    Image: "src/images/Goose.png",
+    SleepRate: 3,
+    HungerRate: 3,
+    HappinessRate: 3,
+  },
+  {
+    Animal: "Turkey",
+    Image: "src/images/Turkey.png",
+    SleepRate: 3,
+    HungerRate: 3,
+    HappinessRate: 3,
+  },
+];
